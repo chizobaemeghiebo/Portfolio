@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
   <head>
     <title>Chizoba</title>
@@ -12,11 +7,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
-  <body class="is-preload">
+  <body>
     <!-- Header -->
     <header id="header">
       <div class="inner">
-        <!-- <a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a> -->
         <h1 class="text-2xl text-red-500">
           <strong>Chizoba Emeghiebo</strong>
         </h1>
@@ -80,11 +74,11 @@
         </div>
       </section>
 
-      <!-- Three -->
+      <!-- contact form-->
       <section id="three">
         <h2>Get In Touch</h2>
         <p>Want to collaborate on a projet or need a website?</p>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-8 col-12-small">
             <form method="post" netlify name="contact-form">
               <input type="hidden" name="contact-form" value="contact" />
@@ -99,6 +93,26 @@
             </ul>
           </div>
           <div class="col-4 col-12-small"></div>
+        </div> -->
+        <div>
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>
+                Your Name:
+                <input type="text" name="name" />
+              </label>
+            </p>
+
+            <p>
+              <label>
+                Message:
+                <textarea name="message"></textarea>
+              </label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
         </div>
       </section>
     </div>
