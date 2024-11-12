@@ -2733,9 +2733,8 @@ input[type='button']:disabled,
   margin: 0;
 }
 
-#header .image.avatar {
-  margin: 0 0 1em 0;
-  width: 6.25em;
+.mt-3 {
+  margin-top: 3rem;
 }
 
 /* Footer */
