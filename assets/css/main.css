@@ -1907,7 +1907,7 @@ textarea {
   appearance: none;
   background: #f7f7f7;
   border-radius: 0.35em;
-  border: solid 2px transparent;
+  border: solid 2px #d83159;
   color: inherit;
   display: block;
   outline: 0;
@@ -1929,7 +1929,7 @@ input[type='password']:focus,
 input[type='email']:focus,
 select:focus,
 textarea:focus {
-  border-color: #49bf9d;
+  border-color: #850534;
 }
 
 select {
@@ -2533,8 +2533,8 @@ input[type='button'],
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 0.35em;
-  border: solid 3px #d81159;
-  color: #787878 !important;
+  border: solid 3px #d83159;
+  color: #333 !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -2552,8 +2552,8 @@ input[type='submit']:hover,
 input[type='reset']:hover,
 input[type='button']:hover,
 .button:hover {
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: #850534;
+  color: #850534 !important;
 }
 
 input[type='submit']:active,
@@ -2561,8 +2561,8 @@ input[type='reset']:active,
 input[type='button']:active,
 .button:active {
   background-color: rgba(73, 191, 157, 0.1);
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: #850534;
+  color: #850534 !important;
 }
 
 input[type='submit'].icon,
