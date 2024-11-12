@@ -80,22 +80,22 @@
         <p>Want to collaborate on a projet or need a website?</p>
 
         <div class="mt-3">
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true" id="contact">
             <div>
               <label>
                 Your Name:
-                <input type="text" name="name" />
+                <input type="text" name="name" id="username" required />
               </label>
             </div>
 
             <div>
               <label>
                 Message:
-                <textarea name="message" rows="6"></textarea>
+                <textarea name="message" rows="6" id="message" required></textarea>
               </label>
             </div>
             <div>
-              <input type="submit" value="Send" />
+              <input type="submit" value="Send" id="submit" />
             </div>
           </form>
         </div>
@@ -130,5 +130,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
